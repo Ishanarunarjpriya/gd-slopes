@@ -1,0 +1,33 @@
+0x37dd60|PlayerObject|void|collidedWithSlope|float dt, GameObject* object, bool skipPre|0
+0x37e3e4|PlayerObject|void|collidedWithSlopeInternal|float dt, GameObject* object, bool forced|0
+0x37e0e8|PlayerObject|void|handleRotatedSlopeCollision|float dt, GameObject* object, bool skipPre|0
+0x37df88|PlayerObject|bool|handleRotatedCollisionInternal|float dt, GameObject* object, cocos2d::CCRect rect, bool skipCheck, bool skipPre, bool slope|0
+0x3819b0|PlayerObject|bool|preSlopeCollision|float dt, GameObject* object|0
+0x37e3ac|PlayerObject|void|rotatePreSlopeObjects||0
+0x381978|PlayerObject|void|unrotatePreSlopeObjects||0
+0x37e158|PlayerObject|void|rotateGameplayObject|GameObject* object|0
+0x381774|PlayerObject|void|unrotateGameplayObject|GameObject* object|0
+0x3827f4|PlayerObject|void|updateSlopeRotation|float dt|0
+0x37b378|PlayerObject|float|getModifiedSlopeYVel||0
+0x381ea0|PlayerObject|void|hitGround|GameObject* object, bool notFlipped|0
+0x37c100|PlayerObject|void|preCollision||0
+0x37c258|PlayerObject|void|postCollision|float dt, bool betweenSteps|0
+0x37dbd8|PlayerObject|void|performSlideCheck||0
+0x37f8e4|PlayerObject|bool|collidedWithObjectInternal|float dt, GameObject* object, cocos2d::CCRect rect, bool skipCheck|0
+0x3766e8|PlayerObject|void|updateJump|float dt|0
+0x382d40|PlayerObject|void|updateRotation|float dt|0
+0x37a590|PlayerObject|void|updateRotation|float dt, float rotation|0
+0x38373c|PlayerObject|void|spiderTestJumpInternal|bool dynamic|0
+0x37d9d4|PlayerObject|bool|isBoostValid|float yVelocity|0
+0x37da2c|PlayerObject|void|boostPlayer|float yVelocity|0
+0x378054|PlayerObject|void|updateMove|float dt|0
+0x37b40c|PlayerObject|void|flipGravity|bool flip, bool noEffects|0
+0x4f8cb8|GameObject|double|slopeYPos|float x|0
+0x4f8c48|GameObject|double|slopeYPos|cocos2d::CCRect rect|0
+0x4f8ba8|GameObject|double|slopeYPos|GameObject* object|0
+0x4f8b8c|GameObject|bool|slopeFloorTop||0
+0x4f8b70|GameObject|bool|slopeWallLeft||0
+0x4ef52c|GameObject|void|determineSlopeDirection||0
+0x4ef748|GameObject|float|getSlopeAngle||0
+0xff074|GJBaseGameLayer|void|collisionCheckObjects|PlayerObject* object, gd::vector<GameObject*>* objects, int objectCount, float dt|0
+0xfe188|GJBaseGameLayer|int|checkCollisions|PlayerObject* object, float dt, bool ignoreDamage|0
