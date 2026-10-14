@@ -6,9 +6,11 @@ Function names and struct layouts come from [geode-sdk/bindings](https://github.
 ## Contents
 - `notes/SLOPES.md`: plain-English summary of slope collision, launches, and slope exit.
 - `notes/ROTATION.md`: cube/ball spin speeds, landing snap, slope rotation, slope-launch spin.
+- `notes/HITBOX_SNAP.md`: object rect / hitbox, landing snap-jump offsets, editor slope rotation.
 - `notes/OFFSETS.md`: PlayerObject / GameObject field offsets used in the code.
 - `decomp/slopes_full.c`: 33 slope-related functions (`collidedWithSlopeInternal`, `preSlopeCollision`, `postCollision`, `updateJump`, `boostPlayer`, ...).
 - `decomp/rotation_full.c`: 16 rotation functions (`runRotateAction`, `updateRotation`, `updateSlopeRotation`, ...).
+- `decomp/hitbox_snap_editor.c`: object rect + oriented box, `checkSnapJumpToObject`, `rotationForSlopeNearObject`.
 - `tools/`: Ghidra headless scripts and the layout/name files to regenerate or extend the output.
 
 ## Regenerating
